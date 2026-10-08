@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "subject": {
+    "id": "python",
+    "name": "Программирование на Python",
+    "description": "Подготовка к тестам и файналу",
+    "color": "mint",
+    "icon": "code",
+    "weeks": [
+      {
+        "id": "week-1",
+        "number": 1,
+        "title": "Типы данных",
+        "questions": [
+          {
+            "id": "w1-q1",
+            "type": "single",
+            "prompt": "Какой тип имеет число 3.14 в Python?",
+            "options": [
+              { "id": "a", "text": "int" },
+              { "id": "b", "text": "float" },
+              { "id": "c", "text": "str" }
+            ],
+            "correctAnswers": ["b"],
+            "explanation": "Числа с десятичной точкой имеют тип float."
+          },
+          {
+            "id": "w1-q2",
+            "type": "multiple",
+            "prompt": "Какие типы данных изменяемы?",
+            "options": [
+              { "id": "a", "text": "list" },
+              { "id": "b", "text": "tuple" },
+              { "id": "c", "text": "dict" }
+            ],
+            "correctAnswers": ["a", "c"],
+            "explanation": "list и dict изменяемы. tuple неизменяем."
+          },
+          {
+            "id": "w1-q3",
+            "type": "text",
+            "prompt": "Что выведет len('abc')? Введите число.",
+            "correctAnswers": ["3"],
+            "explanation": "В строке abc три символа."
+          }
+        ]
+      }
+    ]
+  }
+}
